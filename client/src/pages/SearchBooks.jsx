@@ -11,7 +11,7 @@ import {
 
 import Auth from '../utils/auth';
 import { saveBook, searchGoogleBooks } from '../utils/API';
-import { savedBookId, getSavedBookIds } from '../utils/localStorage';
+import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
 import { SAVE_BOOK } from '../utils/mutations';
 
 const SearchBooks = () => {
