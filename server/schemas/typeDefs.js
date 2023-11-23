@@ -19,7 +19,7 @@ type Book {
 type Auth {
     token: ID!
     user: User
-  }
+}
 
 input bookInput {
     authors: [String]
