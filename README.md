@@ -8,7 +8,7 @@
 
 ## Description
 
-This project is a complete application, built using the MERN stack. Users can sign in and sign up so that they can search for books and saved them for later reference. This is especially helpful if they have a large list of books they plan to read or if they even want to go in and save books that they HAVE read before so that they can easily sign in and show someone their 'library'.
+This project is a complete application, refactored from a restful API and rebuilt using the MERN stack. Users can sign in and sign up so that they can search for books and saved them for later reference. This is especially helpful if they have a large list of books they plan to read or if they even want to go in and save books that they HAVE read before so that they can easily sign in and show someone their 'library'.
 
 ## License
 
@@ -43,7 +43,7 @@ SOFTWARE.
 
 Deployed site: 
 
-Netlify deployment: 
+Railway deployment: 
 
 ![Screenshot](/src/assets/screenshot.png)
 
@@ -53,7 +53,26 @@ Netlify deployment:
 
 These were the websites that I used to help me understand how to complete this project:
 
+https://github.com/coding-boot-camp/solid-broccoli
 
-I also had extensive help from my classmates: Brittany Brimley, Sam Evans and Timothy Morgan, as well as our TA CJ Sanders. Me and Brittany swapped working code throughout our individual building of this project so that we could team up and get this thing running together.
+https://graphql.org/learn/queries/
+
+https://graphql.org/graphql-js/passing-arguments/
+
+https://www.apollographql.com/docs/react/data/mutations/
+
+https://jwt.io/introduction
+
+https://www.apollographql.com/docs/react/networking/authentication/
+
+https://www.apollographql.com/docs/apollo-server/data/resolvers/#handling-arguments
+
+https://www.apollographql.com/tutorials/side-quest-intermediate-schema-design/03-the-input-type
+
+https://www.youtube.com/watch?v=7Q17ubqLfaM&t=633s
+
+https://vitejs.dev/config/server-options.html#server-proxy
+
+I also had extensive help from my classmates: Brittany Brimley, Sam Evans and Timothy Morgan, as well as our TA CJ Sanders who helped me and Brittany specifically. Me and Brittany swapped working code throughout our individual building of this project so that we could team up and get this thing running together. I also had help from AskBCS to figure out multiple errors having to do with the login and signup functionality
 
 </details>
