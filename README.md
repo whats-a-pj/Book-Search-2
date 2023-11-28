@@ -41,11 +41,13 @@ SOFTWARE.
 
 <details><summary>Screenshot & Link to deployed application</summary>
 
-Deployed site: 
+Deployed site: https://book-search.up.railway.app/
 
-Railway deployment: 
+Railway deployment: https://railway.app/project/ce90bf83-b981-4ead-9468-186b75102077
 
-![Screenshot](/src/assets/screenshot.png)
+![Logged in](/client/public/LOGGEDIN.PNG)
+![Search](/client/public/SEARCH.PNG)
+![Saved](/client/public/SAVED.PNG)
 
 </details>
 
@@ -73,6 +75,6 @@ https://www.youtube.com/watch?v=7Q17ubqLfaM&t=633s
 
 https://vitejs.dev/config/server-options.html#server-proxy
 
-I also had extensive help from my classmates: Brittany Brimley, Sam Evans and Timothy Morgan, as well as our TA CJ Sanders who helped me and Brittany specifically. Me and Brittany swapped working code throughout our individual building of this project so that we could team up and get this thing running together. I also had help from AskBCS to figure out multiple errors having to do with the login and signup functionality
+I also had extensive help from my classmates: Brittany Brimley, Sam Evans and Timothy Morgan, as well as our TA CJ Sanders who helped me and Brittany specifically. Me and Brittany swapped working code throughout our individual building of this project so that we could team up and get this thing running together. I also had help from AskBCS to figure out multiple errors having to do with the login and signup functionality.
 
 </details>
