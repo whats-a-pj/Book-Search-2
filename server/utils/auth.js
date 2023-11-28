@@ -30,6 +30,7 @@ module.exports = {
 
     return req;
   },
+  //todo not sure if the order of email username id matters, might come back to this though
   signToken: function ({ email, username, _id }) {
     const payload = { email, username, _id };
     return jwt.sign({ data: payload }, secret, { expiresIn: expiration });
