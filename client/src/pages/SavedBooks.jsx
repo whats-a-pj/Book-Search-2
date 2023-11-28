@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { useQuery } from '@apollo/client';
+import { useState, useEffect } from 'react';
+import { useQuery, useMutation } from '@apollo/client';
 import { QUERY_GET_ME } from '../utils/queries';
 
 import {
@@ -10,7 +10,6 @@ import {
   Col
 } from 'react-bootstrap';
 
-import { getMe, deleteBook } from '../utils/API';
 import Auth from '../utils/auth';
 import { removeBookId } from '../utils/localStorage';
 
