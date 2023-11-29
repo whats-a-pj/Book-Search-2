@@ -15,7 +15,7 @@ import { deleteBookId } from '../utils/localStorage';
 
 const SavedBooks = () => {
   // const [userData, setUserData] = useState({});
-  const [deleteBook] = useMutation(DELETE_BOOK);
+  const [deleteBook, {err} ] = useMutation(DELETE_BOOK);
   const {loading,data} = useQuery(QUERY_ME);
   const userData = data?.me || {};
   const token = Auth.loggedIn() ? Auth.getToken() : null;
@@ -34,13 +34,9 @@ const SavedBooks = () => {
     }
 
     try {
-      const { data } = await deleteBook(bookId)({
-        variables: {
-          bookId: bookId,
-        },
+      const { data } = await deleteBook({variables: {bookId},
       })
-
-      deleteBookId(bookId, data);
+      deleteBookId(bookId)
     } catch (err) {
       console.error(err);
     }
